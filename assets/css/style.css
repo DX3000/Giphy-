@@ -1,0 +1,17 @@
+.img-container {
+    margin: 10px;
+}
+
+#loading {
+    display: none;
+}
+
+#gifs-list {
+    text-align: center;
+    justify-content: center;
+}
+
+.search-form, #topic-list {
+    margin: 2px;
+    margin-bottom: 1rem;
+}

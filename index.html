@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Giffy Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+<body class="container">
+    <header class="container">
+        <div class="row justify-content-center">
+            <h1>Giffy Player</h1>
+        </div>
+    </header>
+    <form class="search-form form-group row">
+        <label>Giffy Search:</label>
+        <input id="searchName" class="form-control" type="text">
+        <button id="submitName" type="submit">Submit</button>
+    </form>
+    <section id="topic-list" class="row"></section>
+    <img id="loading" src="assets/images/loading.gif">
+    <section id="gifs-list" class="row"></section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
